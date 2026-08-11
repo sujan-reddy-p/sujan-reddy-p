@@ -84,15 +84,6 @@ I care about the whole arc: finding the sharp question, making the system reliab
 | 01 | **Hack-A-League** — 1st place, 200+ participants | NLP-powered semantic / plagiarism analyzer |
 | 03 | **Fantom Code** — 3rd place, 3,000+ participants | Digital-asset inheritance concept on blockchain |
 
-## The working dashboard
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sujan-reddy-p&show_icons=true&hide_border=true&bg_color=00000000&title_color=14b8a6&icon_color=84cc16&text_color=64748b&rank_icon=github" alt="Sujan's GitHub statistics" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=sujan-reddy-p&hide_border=true&background=00000000&ring=14b8a6&fire=84cc16&currStreakLabel=14b8a6&sideLabels=64748b&dates=64748b" alt="Sujan's contribution streak" />
-</div>
-
-<br />
-
 <div align="center">
   <sub>Build with curiosity. Improve with intention. Make it useful.</sub>
 </div>
