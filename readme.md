@@ -1,40 +1,98 @@
-# Hi, I'm Sujan 👋
+<div align="center">
 
-### Early-career software engineer building thoughtful, user-focused products
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:14b8a6,100:84cc16&height=180&section=header&text=SUJAN%20REDDY&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=product-minded%20engineer%20%E2%80%A2%20agentic%20systems%20%E2%80%A2%20useful%20things&descAlignY=57&animation=fadeIn" alt="Sujan Reddy — product-minded engineer" width="100%" />
 
-I enjoy turning ideas into polished digital experiences—from interactive web interfaces to practical tools that make complex workflows feel simple. I care about clean implementation, strong visual design, and the small details that make software feel great to use.
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1000&color=14B8A6&center=true&vCenter=true&width=620&lines=I+build+useful+products+with+agents+behind+the+scenes.;From+messy+data+to+clear%2C+human+experiences.;Currently+exploring+applied+AI%2C+data+systems+%26+product+craft." alt="Typing introduction" /></a>
 
-## What I'm focused on
-
-- Building modern, responsive applications with React and Next.js
-- Designing intuitive interfaces with motion, interaction, and accessibility in mind
-- Growing as an engineer through hands-on projects and continuous learning
-- Exploring the intersection of engineering, product thinking, and creative technology
-
-## Tech I work with
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-## Featured work
-
-Here are a few places to explore what I'm building:
-
-- **[Portfolio](https://github.com/sujan-reddy-p/webapp)** — A visual home for my projects, experiments, and case studies.
-- More projects coming soon as I continue building and learning in public.
-
-## Let's connect
-
-I'm always open to meeting thoughtful builders, learning from others, and collaborating on interesting ideas.
-
-- GitHub: [@sujan-reddy-p](https://github.com/sujan-reddy-p)
-- Portfolio: [sujan-reddy-p.github.io](https://sujan-reddy-p.github.io)
+  <p>
+    <a href="https://www.linkedin.com/in/sujan-reddy-p/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:sujanreddy.rp@gmail.com"><img src="https://img.shields.io/badge/Email-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Sujan" /></a>
+    <a href="https://github.com/sujan-reddy-p?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_work-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects" /></a>
+  </p>
+</div>
 
 <br />
 
-_Build with curiosity. Improve with intention._
+```txt
+╭─────────────────────────────────────────────────────────────────────╮
+│  status: building                                                    │
+│  location: San Francisco, CA                                         │
+│  focus: agentic products · data systems · thoughtful interfaces      │
+│  currently: MS Computer Science @ SUNY Buffalo                       │
+╰─────────────────────────────────────────────────────────────────────╯
+```
+
+## A little about me
+
+I'm Sujan—a software engineer who likes the space where **data, AI, and product design** overlap. I build systems that do real work behind the scenes, then turn their complexity into interfaces people can actually understand and enjoy.
+
+I care about the whole arc: finding the sharp question, making the system reliable, and sweating the interaction details that make a product feel alive.
+
+## Selected dispatches
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏙️ <a href="https://local-lore-five.vercel.app/">Local Lore</a></h3>
+      <p>A source-linked San Francisco discovery guide that uses an agent to research events, catch discrepancies, and keep listings fresh.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>MapLibre</code> <code>Agent pipeline</code></p>
+      <a href="https://github.com/sujan-reddy-p/local-lore">view source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔎 <a href="https://github.com/sujan-reddy-p/fedlens">FedLens</a></h3>
+      <p>An agentic government-spending analyst that connects fiscal data with official sources and clear, reproducible explanations.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>PostgreSQL</code></p>
+      <a href="https://github.com/sujan-reddy-p/fedlens">view source →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📈 <a href="https://github.com/sujan-reddy-p/Convergence">Convergence</a></h3>
+      <p>A research and paper-trading system that identifies specialist prediction-market wallets and measures same-side consensus.</p>
+      <p><code>Python</code> <code>Pandas</code> <code>PyArrow</code> <code>SQLite</code></p>
+      <a href="https://github.com/sujan-reddy-p/Convergence">view source →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ The through-line</h3>
+      <p>I’m most energized by work that turns noisy information into a decision, a discovery, or a moment of clarity.</p>
+      <p><strong>Open to:</strong> early-career software engineering roles where curiosity and product thinking matter.</p>
+    </td>
+  </tr>
+</table>
+
+## Tools I reach for
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,python,fastapi,postgres,docker,git,github&perline=10" alt="TypeScript, React, Next.js, Tailwind, Python, FastAPI, PostgreSQL, Docker, Git, GitHub" />
+</p>
+
+<details>
+  <summary><strong>Signal, not just syntax</strong></summary>
+  <br />
+
+  - **Interfaces:** React, Next.js, TypeScript, Tailwind, motion
+  - **Systems & AI:** Python, FastAPI, LangGraph, PyTorch
+  - **Data:** PostgreSQL, SQLite, Pandas, PyArrow
+  - **Shipping:** Docker, Git, GitHub
+</details>
+
+## Built under pressure
+
+| 🏆 | Recognition | What I built |
+| :-: | --- | --- |
+| 01 | **IBM Z Datathon** — 1st place, 3,000+ participants | Multi-level health analysis using medical-report data |
+| 01 | **Hack-A-League** — 1st place, 200+ participants | NLP-powered semantic / plagiarism analyzer |
+| 03 | **Fantom Code** — 3rd place, 3,000+ participants | Digital-asset inheritance concept on blockchain |
+
+## The working dashboard
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sujan-reddy-p&show_icons=true&hide_border=true&bg_color=00000000&title_color=14b8a6&icon_color=84cc16&text_color=64748b&rank_icon=github" alt="Sujan's GitHub statistics" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=sujan-reddy-p&hide_border=true&background=00000000&ring=14b8a6&fire=84cc16&currStreakLabel=14b8a6&sideLabels=64748b&dates=64748b" alt="Sujan's contribution streak" />
+</div>
+
+<br />
+
+<div align="center">
+  <sub>Build with curiosity. Improve with intention. Make it useful.</sub>
+</div>
