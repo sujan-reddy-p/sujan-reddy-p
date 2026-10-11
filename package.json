@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start:tailwind": "cross-env NODE_ENV=development tailwindcss --postcss -i tailwind.css -o tailwind-runtime.css -w",
-        "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o tailwind-build.css --minify",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build:tailwind": "cross-env NODE_ENV=production tailwindcss --postcss -i tailwind.css -o tailwind-build.css --minify"
     },
     "keywords": [
         "landing",
@@ -15,7 +14,7 @@
         "design",
         "websites"
     ],
-    "author": "Paul",
+    "author": "Sujan Reddy",
     "license": "MIT",
     "devDependencies": {
         "autoprefixer": "^10.4.21",
