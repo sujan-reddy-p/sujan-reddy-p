@@ -53,9 +53,10 @@ I care about the whole arc: finding the sharp question, making the system reliab
       <a href="https://github.com/sujan-reddy-p/Convergence">view source →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ The through-line</h3>
-      <p>I’m most energized by work that turns noisy information into a decision, a discovery, or a moment of clarity.</p>
-      <p><strong>Open to:</strong> early-career software engineering roles where curiosity and product thinking matter.</p>
+      <h3>🧾 <a href="https://github.com/sujan-reddy-p/sf311-pulse">SF 311 Pulse</a></h3>
+      <p>A small, offline-first Python pipeline that validates and summarizes San Francisco 311 service requests.</p>
+      <p><code>Python</code> <code>SQLite</code> <code>ETL</code> <code>Data quality</code></p>
+      <a href="https://github.com/sujan-reddy-p/sf311-pulse">view source →</a>
     </td>
   </tr>
 </table>
