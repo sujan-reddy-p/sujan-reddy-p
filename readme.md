@@ -53,10 +53,10 @@ I care about the whole arc: finding the sharp question, making the system reliab
       <a href="https://github.com/sujan-reddy-p/Convergence">view source →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🧾 <a href="https://github.com/sujan-reddy-p/sf311-pulse">SF 311 Pulse</a></h3>
-      <p>A small, offline-first Python pipeline that validates and summarizes San Francisco 311 service requests.</p>
-      <p><code>Python</code> <code>SQLite</code> <code>ETL</code> <code>Data quality</code></p>
-      <a href="https://github.com/sujan-reddy-p/sf311-pulse">view source →</a>
+      <h3>🧰 <a href="https://github.com/sujan-reddy-p/local-workbench">Local Workbench</a></h3>
+      <p>A privacy-first, resumable local AI batch runner with adaptive inference limits and explicit approval for file copies.</p>
+      <p><code>Python</code> <code>Ollama</code> <code>Textual TUI</code> <code>SQLite</code></p>
+      <a href="https://github.com/sujan-reddy-p/local-workbench">view source →</a>
     </td>
   </tr>
 </table>
