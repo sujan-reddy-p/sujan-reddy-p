@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Source images (intermediates)
+source-photo.jpg
+source-prepped.png
+
+# Local challenge state — archive of upstream SHA so user can inspect
+# .upstream_sha IS tracked (intentional — provenance)
+# .github IS tracked (actions need it)
+# data/ IS tracked (workflow commits its contents daily)
+
+# macOS
+.DS_Store
