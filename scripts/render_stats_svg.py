@@ -83,9 +83,9 @@ parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
     '<style>'
-    f'.t{{opacity:0;animation:in {SLIDE_DUR}s ease-out both}}'
+    f'.t{{animation:in {SLIDE_DUR}s ease-out both}}'
     '@keyframes in{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}'
-    f'.b{{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow {BAR_DUR}s ease-out both}}'
+    f'.b{{transform-box:fill-box;transform-origin:bottom;animation:grow {BAR_DUR}s ease-out both}}'
     '@keyframes grow{to{transform:scaleY(1)}}'
     '@media (prefers-reduced-motion: reduce){.t,.b{opacity:1!important;transform:none!important;animation:none!important}}'
     '</style>',
@@ -98,7 +98,7 @@ parts = [
 for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dot}"/>')
 parts.append(f'<text x="{W/2}" y="{TITLEBAR_H/2 + 4}" fill="{MUTED}" font-size="12" '
-             f'text-anchor="middle">avi@github: ~$ ./stats.sh</text>')
+             f'text-anchor="middle">sujan@github: ~$ ./stats.sh</text>')
 
 # ---- stat tiles ----------------------------------------------------------
 for i, (label, value, suffix, caption, accent) in enumerate(tiles):
@@ -115,16 +115,23 @@ for i, (label, value, suffix, caption, accent) in enumerate(tiles):
 
     # count-up frames: ease-out so it decelerates into the real number
     num_y = y + 100
+    # A final-value fallback stays visible in static SVG renderers that do not
+    # run SMIL; browsers hide it when the animated count-up starts.
+    parts.append(
+        f'<text x="{x+24:.1f}" y="{num_y}" font-size="54" font-weight="700" fill="{accent}">'
+        f'{fmt(value, value)}<tspan font-size="24" font-weight="400" fill="{MUTED}">{suffix}</tspan>'
+        f'<set attributeName="visibility" to="hidden" begin="{count_start:.3f}s"/></text>'
+    )
     for k in range(1, FRAMES + 1):
         p = k / FRAMES
         v = value * (1 - (1 - p) ** 3)
         t_on = count_start + COUNT_DUR * (k - 1) / FRAMES
         t_off = count_start + COUNT_DUR * k / FRAMES
-        anim = f'<set attributeName="opacity" to="1" begin="{t_on:.3f}s"/>'
+        anim = f'<set attributeName="visibility" to="visible" begin="{t_on:.3f}s"/>'
         if k < FRAMES:
-            anim += f'<set attributeName="opacity" to="0" begin="{t_off:.3f}s"/>'
+            anim += f'<set attributeName="visibility" to="hidden" begin="{t_off:.3f}s"/>'
         parts.append(
-            f'<text x="{x+24:.1f}" y="{num_y}" opacity="0" font-size="54" font-weight="700" fill="{accent}">'
+            f'<text x="{x+24:.1f}" y="{num_y}" visibility="hidden" font-size="54" font-weight="700" fill="{accent}">'
             f'{fmt(v, value)}<tspan font-size="24" font-weight="400" fill="{MUTED}">{suffix}</tspan>'
             f'{anim}</text>'
         )

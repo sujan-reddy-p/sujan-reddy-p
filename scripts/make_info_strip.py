@@ -46,10 +46,10 @@ STATUS_LINE = "based in San Francisco  //  MS Computer Science @ SUNY Buffalo"
 STACK = ["TypeScript", "React", "Next.js", "Python", "FastAPI",
          "Postgres", "Docker", "Redis", "Git"]
 BUILDING = [
-    ("Local Lore",     "AI tour guide grounded in real venues"),
-    ("FedLens",        "Fintech content sidekick"),
-    ("Convergence",    "Two people, one editor - pair-coding for prose"),
-    ("Local Workbench","First-pass meetups for new cities"),
+    ("Local Lore",     "Map-first SF discovery; 212 curated missions"),
+    ("FedLens",        "Grounded Q&A over official federal spending data"),
+    ("Convergence",    "Finds specialist Polymarket wallets; weights agreement"),
+    ("Local Workbench","Resumable local per-file AI analysis"),
 ]
 EDUCATION = [
     ("MS Computer Science",   "University at Buffalo (SUNY)"),
@@ -210,7 +210,7 @@ ry += 16
 parts.append(f'<text x="{rx}" y="{ry:.1f}" fill="{INK}" font-size="11.5">'
              f'<tspan fill="{DIM}">▸ </tspan>'
              f'<tspan fill="{YELLOW}" font-weight="600">'
-             f'Full-time SWE</tspan> — MS CS, US-based (F-1 OPT)</text>')
+             f'Full-time SWE</tspan> — MS CS, US-based</text>')
 ry += 20
 
 # stack chip strip
@@ -257,7 +257,7 @@ for name, blurb in BUILDING:
                  f'<tspan fill="{DIM}">▸ </tspan>'
                  f'<tspan fill="{GREEN}" font-weight="600">'
                  f'{html.escape(name)}</tspan>'
-                 f'<tspan fill="{DIM}"> — </tspan>'
+                 f'<tspan fill="{DIM}">{html.escape(chr(160) + "—" + chr(160))}</tspan>'
                  f'<tspan fill="{INK}">{html.escape(blurb)}</tspan></text>')
     ry += 16
 ry += 6
